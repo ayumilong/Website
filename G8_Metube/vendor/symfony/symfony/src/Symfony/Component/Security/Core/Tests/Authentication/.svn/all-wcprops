@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication
+END
+AuthenticationTrustResolverTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/AuthenticationTrustResolverTest.php
+END
+AuthenticationProviderManagerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/AuthenticationProviderManagerTest.php
+END

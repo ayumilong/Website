@@ -1,0 +1,88 @@
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+
+{% block stylesheet %}
+<link href="{{ asset('bundles/msscore/css/jasny-bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('bundles/msscore/css/jasny-bootstrap.css') }}" rel="stylesheet">
+<style type="text/css">
+    /*
+    * Base structure
+    */
+
+    /* Move down content because we have a fixed navbar that is 50px tall */
+    body {
+      padding-top: 50px;
+    }
+</style>
+{% endblock %}
+
+{% block javascript %}
+<script src="{{ asset('bundles/msscore/js/jasny-bootstrap.min.js') }}"></script>
+<script src="{{ asset('bundles/msscore/js/jasny-bootstrap.js') }}"></script>
+{% endblock %}
+
+{% block content%}
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <form class="uploadForm" method ="POST"  enctype="multipart/form-data" action="{{path('mss_core_media_uploadImage')}}">
+        <div class="col-md-4">
+           <h2>Upload center</h2>
+           
+           <div class="fileinput fileinput-new" data-provides="fileinput">
+            <div class="fileinput-new thumbnail" style="width: 350px; height: 300px;">
+              <img data-src="holder.js/100%x100%" alt="...">
+            </div>
+            <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 350px; max-height: 300px;"></div>
+            <div>
+              <span class="btn btn-default btn-file">
+                  <span class="fileinput-new">Select</span>
+                  <span class="fileinput-exists">Change</span>
+                  <input type="file" name="img">
+              </span>
+              <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+            </div>
+          </div>
+          
+          
+        </div>
+          
+        <div class="col-md-6">
+          <h2>Image description</h2>
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" name="title" placeholder="Enter title" required autofocus>
+          </div>
+          <div class="form-group">
+            <label for="keywords">Keywords</label>
+            <div class="row">
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" name="keyword1" placeholder="Nature" required>
+                </div>
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" name="keyword2" placeholder="Celebrities">
+                </div>
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" name="keyword3" placeholder="Personal life">
+                </div>
+          </div>
+          </div>
+          <div class="form-group">
+            <label for="description">Description</label>
+            <textarea class="form-control" name="description" placeholder="Description" rows="3" required></textarea>
+          </div>
+          <div class="form-group">
+              <label for="security">Security</label>
+              <select class="form-control" name="security">  
+                <option value ="public">Public</option>  
+                <option value ="private">Private</option>  
+            </select>  
+          </div>
+          <button class="btn btn-primary fileupload-exists" type="submit">Upload</button>
+       </div>
+      </div>
+      </form>   
+      </div>
+{% endblock%}
+
+{% block fooder %}
+{% endblock %}

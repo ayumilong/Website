@@ -1,0 +1,68 @@
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+
+{% block stylesheet %}
+<style type="text/css">
+    body {
+        margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+    }
+
+    .thumb {
+        margin-bottom: 30px;
+    }
+
+    footer {
+        margin: 50px 0;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header"><small>TEXTS</small>
+            </h1>
+        </div>
+    </div>
+    
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>UploadBy</th>
+                <th>Download</th>
+                <th>UploadTime</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in texts %}
+            <tr>
+                <td>
+                    <a href="{{ path('mss_core_cate_specific', {'type': 3, 'mediaid': item.textid, 'keywords':item.keywords}) }}">
+                    {{ item.title }}</a>
+                </td>
+                <td><a style="width:120px" class="btn btn-default"  href="{{url('mss_core_user_channels', {'username': item.uploadname})}}">{{item.uploadname}}</a></td>
+                
+                 <td><a style="width:120px" class="btn btn-default"  href="">Downloads: {{item.downloadtimes}}</a></td>
+                
+                <td>{{item.updatetime|date('Y-m-d')}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>    
+
+{% endblock %}
+
+{% block fooder %}
+    <!-- FOOTER -->
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>Copyright &copy; Company 2013</p>
+            </div>
+        </div>
+    </footer>
+</div>
+{% endblock %}

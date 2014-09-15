@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/phpunit.xml.dist
+END
+IdentityTranslator.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/IdentityTranslator.php
+END
+Interval.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Interval.php
+END
+MessageSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/MessageSelector.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/README.md
+END
+PluralizationRules.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/PluralizationRules.php
+END
+Translator.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Translator.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/composer.json
+END
+MessageCatalogue.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/MessageCatalogue.php
+END
+MessageCatalogueInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/MessageCatalogueInterface.php
+END
+TranslatorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/TranslatorInterface.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/LICENSE
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/CHANGELOG.md
+END
+MetadataAwareInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/MetadataAwareInterface.php
+END

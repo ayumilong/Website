@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/.travis.yml
+END
+.coveralls.yml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/.coveralls.yml
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/phpunit.xml.dist
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/build.properties
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/README.md
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/build.xml
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/LICENSE
+END

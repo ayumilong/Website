@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MSS\CoreBundle\Entity\History" table="history">
+    <id name="historyid" type="integer" column="historyid" length="10">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="username" type="string" column="username" nullable="false"/>
+    <field name="keywords" type="string" column="keywords" length="40" nullable="false"/>
+    <field name="mediatype" type="integer" column="mediatype" nullable="false"/>
+    <field name="mediaid" type="integer" column="mediaid" nullable="false"/>
+    <field name="browsetime" type="date" column="browsetime" nullable="true"/>
+    <many-to-one field="username" target-entity="User">
+      <join-columns>
+        <join-column name="username" referenced-column-name="username"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

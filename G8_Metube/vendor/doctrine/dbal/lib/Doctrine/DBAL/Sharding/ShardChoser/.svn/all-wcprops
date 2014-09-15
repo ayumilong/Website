@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/ShardChoser
+END
+ShardChoser.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/ShardChoser/ShardChoser.php
+END
+MultiTenantShardChoser.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/ShardChoser/MultiTenantShardChoser.php
+END

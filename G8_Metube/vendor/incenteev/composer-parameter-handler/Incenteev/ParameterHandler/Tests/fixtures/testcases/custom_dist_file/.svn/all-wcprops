@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/incenteev/composer-parameter-handler/Incenteev/ParameterHandler/Tests/fixtures/testcases/custom_dist_file
+END
+setup.yml
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/incenteev/composer-parameter-handler/Incenteev/ParameterHandler/Tests/fixtures/testcases/custom_dist_file/setup.yml
+END
+expected.yml
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/incenteev/composer-parameter-handler/Incenteev/ParameterHandler/Tests/fixtures/testcases/custom_dist_file/expected.yml
+END
+dist.yml
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/incenteev/composer-parameter-handler/Incenteev/ParameterHandler/Tests/fixtures/testcases/custom_dist_file/dist.yml
+END
+existing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/incenteev/composer-parameter-handler/Incenteev/ParameterHandler/Tests/fixtures/testcases/custom_dist_file/existing.yml
+END

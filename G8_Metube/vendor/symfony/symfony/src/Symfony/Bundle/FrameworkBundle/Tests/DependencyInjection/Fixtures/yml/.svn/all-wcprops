@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml
+END
+form_no_csrf.yml
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/form_no_csrf.yml
+END
+csrf.yml
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/csrf.yml
+END
+csrf_needs_session.yml
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/csrf_needs_session.yml
+END
+form_csrf_sets_field_name.yml
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/form_csrf_sets_field_name.yml
+END
+form_csrf_under_form_sets_field_name.yml
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/form_csrf_under_form_sets_field_name.yml
+END
+templating_url_package.yml
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/templating_url_package.yml
+END
+full.yml
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/full.yml
+END
+profiler.yml
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/profiler.yml
+END
+session.yml
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/session.yml
+END
+csrf_disabled.yml
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/csrf_disabled.yml
+END
+validation_annotations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/validation_annotations.yml
+END

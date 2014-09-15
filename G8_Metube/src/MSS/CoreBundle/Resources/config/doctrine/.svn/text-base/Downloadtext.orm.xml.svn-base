@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MSS\CoreBundle\Entity\Downloadtext" table="downloadtext">
+    <id name="downloadid" type="integer" column="downloadid">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="downloadtextid" type="integer" column="downloadtextid" nullable="false"/>
+    <field name="downloadname" type="string" column="downloadname" length="20" nullable="false"/>
+    <field name="downloadtime" type="date" column="downloadtime" nullable="false"/>   
+  </entity>
+</doctrine-mapping>

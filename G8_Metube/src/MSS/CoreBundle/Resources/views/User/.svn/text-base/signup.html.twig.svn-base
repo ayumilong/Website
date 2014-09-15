@@ -1,0 +1,101 @@
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+
+{% block title %}Welcom to MeTube{% endblock %}
+
+{% block stylesheet %}
+    <link href="{{ asset('bundles/msscore/css/bootstrap.min.css') }}" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: #eee;
+      }
+
+      .form-signin {
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin .checkbox {
+        font-weight: normal;
+      }
+      .form-signin .form-control {
+        position: relative;
+        height: auto;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 10px;
+        font-size: 16px;
+      }
+      .form-signin .form-control:focus {
+        z-index: 2;
+      }
+      .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+      .form-signin input[type="passwordRe"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      } 
+      .form-signin input[type="password"] {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+    </style>
+{% endblock %}
+    
+{% block content %}
+    <div class="container">
+
+      <form class="form-signin" role="form" method="POST" action="{{ path("mss_core_user_signup") }}" data-validate="parsley">
+        <h2 class="form-signin-heading" style="font-size: 36px">Sign up</h2>
+        <!--<h3 class="form-signin-description">It’s free and always will be.</h3>-->
+        
+        {% if uexist is defined %}
+        <div style="color:red">{{uexist}}</div>
+        {% endif %}
+        
+        <input type="email" id="email" name="email" class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+        <input type="password" id="passwordRe" name="passwordRe" class="form-control" placeholder="Password Repeat" data-equalto="#password" required>
+        <input type="input" id="address" name="address" class="form-control" placeholder="Address">
+        
+        <!--
+        <span class="form-control">
+        <input type="radio" id="female" name="sex" value="1">
+        <label>Female</label>
+        <input type="radio" id="male" name="sex" value="2">
+        <label>Male</label>
+        </span>-->
+        <!-- <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label> -->
+        <br>
+        <!-- btn-block -->
+        <div align="center">
+        <button name="singup" class="btn btn-lg btn-primary" type="submit">Sign up</button>
+        <a class="btn btn-lg btn-primary" href="{{path('mss_core_homepage')}}" >Cancle</a>
+        </div>
+      </form>
+
+    </div> <!-- /container -->
+
+{% endblock %}
+    
+{% block javascript %}
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+{% endblock %}

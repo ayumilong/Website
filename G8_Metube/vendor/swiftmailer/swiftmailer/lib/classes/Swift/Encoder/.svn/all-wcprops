@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder
+END
+QpEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php
+END
+Rfc2231Encoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php
+END
+Base64Encoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php
+END

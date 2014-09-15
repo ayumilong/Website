@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication
+END
+SimpleFormAuthenticatorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/SimpleFormAuthenticatorInterface.php
+END
+AuthenticationManagerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/AuthenticationManagerInterface.php
+END
+SimplePreAuthenticatorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/SimplePreAuthenticatorInterface.php
+END
+AuthenticationTrustResolver.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/AuthenticationTrustResolver.php
+END
+AuthenticationTrustResolverInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/AuthenticationTrustResolverInterface.php
+END
+AuthenticationProviderManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/AuthenticationProviderManager.php
+END
+SimpleAuthenticatorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/SimpleAuthenticatorInterface.php
+END

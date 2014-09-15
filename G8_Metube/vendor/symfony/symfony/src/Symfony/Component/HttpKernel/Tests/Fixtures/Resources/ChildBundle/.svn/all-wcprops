@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/Resources/ChildBundle
+END
+foo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/Resources/ChildBundle/foo.txt
+END

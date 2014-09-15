@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/LICENSE
+END
+UPGRADE
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/UPGRADE
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/README.md
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/composer.json
+END

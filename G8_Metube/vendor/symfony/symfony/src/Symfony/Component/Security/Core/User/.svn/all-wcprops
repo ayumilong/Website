@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User
+END
+UserInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/UserInterface.php
+END
+UserChecker.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/UserChecker.php
+END
+EquatableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/EquatableInterface.php
+END
+UserCheckerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/UserCheckerInterface.php
+END
+AdvancedUserInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/AdvancedUserInterface.php
+END
+InMemoryUserProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/InMemoryUserProvider.php
+END
+UserProviderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/UserProviderInterface.php
+END
+ChainUserProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/ChainUserProvider.php
+END
+User.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/User.php
+END

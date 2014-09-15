@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Normalizer
+END
+TestDenormalizer.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Normalizer/TestDenormalizer.php
+END
+CustomNormalizerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Normalizer/CustomNormalizerTest.php
+END
+GetSetMethodNormalizerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Normalizer/GetSetMethodNormalizerTest.php
+END
+TestNormalizer.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Tests/Normalizer/TestNormalizer.php
+END

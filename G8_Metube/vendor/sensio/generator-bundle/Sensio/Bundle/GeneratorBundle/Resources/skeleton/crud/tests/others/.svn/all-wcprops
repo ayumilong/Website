@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/tests/others
+END
+full_scenario.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/tests/others/full_scenario.php.twig
+END
+short_scenario.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/tests/others/short_scenario.php.twig
+END

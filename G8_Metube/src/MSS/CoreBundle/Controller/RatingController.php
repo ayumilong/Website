@@ -1,0 +1,55 @@
+<?php
+namespace MSS\CoreBundle\Controller;
+
+use MSS\CoreBundle\Entity\Rating;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Response;
+
+/**
+ * Description of RatingController
+ *
+ * @author yanbai
+ */
+class RatingController extends Controller {
+
+    public function newRateAction(Request $request) {
+        if ($this->get('request')->isXmlHttpRequest()) {
+            $session = $request->getSession();
+            $uname = $session->get('uname');
+            $mediatype = $request->get('mtype');
+            $mediaid = $request->get('mid');
+            $stars = $request->get('stars');            
+
+            if ($uname) {
+                $rate = new Rating();
+                $rate->setMediatype($mediatype);
+                $rate->setMediaid($mediaid);
+                $rate->setStars($stars);
+                
+                $repos = $this->getDoctrine()->getRepository('MSSCoreBundle:User');
+                $rater = $repos->findOneBy(array('username' => $uname));
+                $rate->setRater($rater);
+                
+                $em = $this->getDoctrine()->getManager();
+                $em->persist($rate);
+                $em->flush();
+                
+                $response = new Response();
+                $output = array('success' => true);
+                $response->headers->set('Content-Type', 'application/json');
+                $response->setContent(json_encode($output));
+                
+            } else {
+                
+                $response = new Response();
+                $output = array('success' => false, 'errormsg' => 'Please login first!');
+                $response->headers->set('Content-Type', 'application/json');
+                $response->setContent(json_encode($output));
+            }
+            
+            return $response;
+        }
+    }
+
+}

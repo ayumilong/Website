@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/LICENSE
+END
+VERSION
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/VERSION
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/.travis.yml
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/.gitattributes
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/composer.json
+END

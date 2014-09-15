@@ -1,0 +1,333 @@
+<?php
+
+namespace MSS\CoreBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * User
+ *
+ * @ORM\Table(name="user")
+ * @ORM\Entity
+ */
+
+class User
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="passwd", type="string", length=10, nullable=false)
+     */
+    private $passwd;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="address", type="string", length=40, nullable=true)
+     */
+    private $address;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="email", type="string", length=40, nullable=false)
+     */
+    private $email;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="photopath", type="string", length=100, nullable=true)
+     */
+    private $photopath;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="vedios", type="integer", nullable=true)
+     */
+    private $vedios;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="status", type="integer", nullable=true)
+     */
+    private $status;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="username", type="string", length=20)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="NONE")
+     */
+    private $username;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     *
+     * @ORM\ManyToMany(targetEntity="MSS\CoreBundle\Entity\User", inversedBy="publisher")
+     * @ORM\JoinTable(name="subscribechannel",
+     *   joinColumns={
+     *     @ORM\JoinColumn(name="publisher", referencedColumnName="username")
+     *   },
+     *   inverseJoinColumns={
+     *     @ORM\JoinColumn(name="observer", referencedColumnName="username")
+     *   }
+     * )
+     */
+    private $observer;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     *
+     * @ORM\ManyToMany(targetEntity="MSS\CoreBundle\Entity\User", inversedBy="fromname")
+     * @ORM\JoinTable(name="contactlist",
+     *   joinColumns={
+     *     @ORM\JoinColumn(name="fromname", referencedColumnName="username")
+     *   },
+     *   inverseJoinColumns={
+     *     @ORM\JoinColumn(name="toname", referencedColumnName="username")
+     *   }
+     * )
+     */
+    private $toname;
+    
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->observer = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->toname = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+
+    /**
+     * Set passwd
+     *
+     * @param string $passwd
+     * @return User
+     */
+    public function setPasswd($passwd)
+    {
+        $this->passwd = $passwd;
+
+        return $this;
+    }
+
+    /**
+     * Get passwd
+     *
+     * @return string 
+     */
+    public function getPasswd()
+    {
+        return $this->passwd;
+    }
+
+    /**
+     * Set address
+     *
+     * @param string $address
+     * @return User
+     */
+    public function setAddress($address)
+    {
+        $this->address = $address;
+
+        return $this;
+    }
+
+    /**
+     * Get address
+     *
+     * @return string 
+     */
+    public function getAddress()
+    {
+        return $this->address;
+    }
+
+    /**
+     * Set email
+     *
+     * @param string $email
+     * @return User
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+
+        return $this;
+    }
+
+    /**
+     * Get email
+     *
+     * @return string 
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    /**
+     * Set photopath
+     *
+     * @param string $photopath
+     * @return User
+     */
+    public function setPhotopath($photopath)
+    {
+        $this->photopath = $photopath;
+
+        return $this;
+    }
+
+    /**
+     * Get photopath
+     *
+     * @return string 
+     */
+    public function getPhotopath()
+    {
+        return $this->photopath;
+    }
+
+    /**
+     * Set vedios
+     *
+     * @param integer $vedios
+     * @return User
+     */
+    public function setVedios($vedios)
+    {
+        $this->vedios = $vedios;
+
+        return $this;
+    }
+
+    /**
+     * Get vedios
+     *
+     * @return integer 
+     */
+    public function getVedios()
+    {
+        return $this->vedios;
+    }
+
+    /**
+     * Set status
+     *
+     * @param integer $status
+     * @return User
+     */
+    public function setStatus($status)
+    {
+        $this->status = $status;
+
+        return $this;
+    }
+
+    /**
+     * Get status
+     *
+     * @return integer 
+     */
+    public function getStatus()
+    {
+        return $this->status;
+    }
+
+    /**
+     * Set username
+     *
+     * @param integer $username
+     * @return User
+     */
+    public function setUsername($username)
+    {
+        $this->username = $username;
+
+        return $this;
+    }
+    
+    /**
+     * Get username
+     *
+     * @return string 
+     */
+    public function getUsername()
+    {
+        return $this->username;
+    }
+
+    /**
+     * Add observer
+     *
+     * @param \MSS\CoreBundle\Entity\User $observer
+     * @return User
+     */
+    public function addObserver(\MSS\CoreBundle\Entity\User $observer)
+    {
+        $this->observer[] = $observer;
+
+        return $this;
+    }
+
+    /**
+     * Remove observer
+     *
+     * @param \MSS\CoreBundle\Entity\User $observer
+     */
+    public function removeObserver(\MSS\CoreBundle\Entity\User $observer)
+    {
+        $this->observer->removeElement($observer);
+    }
+
+    /**
+     * Get observer
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getObserver()
+    {
+        return $this->observer;
+    }
+
+    /**
+     * Add toname
+     *
+     * @param \MSS\CoreBundle\Entity\User $toname
+     * @return User
+     */
+    public function addToname(\MSS\CoreBundle\Entity\User $toname)
+    {
+        $this->toname[] = $toname;
+
+        return $this;
+    }
+
+    /**
+     * Remove toname
+     *
+     * @param \MSS\CoreBundle\Entity\User $toname
+     */
+    public function removeToname(\MSS\CoreBundle\Entity\User $toname)
+    {
+        $this->toname->removeElement($toname);
+    }
+
+    /**
+     * Get toname
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getToname()
+    {
+        return $this->toname;
+    }
+}

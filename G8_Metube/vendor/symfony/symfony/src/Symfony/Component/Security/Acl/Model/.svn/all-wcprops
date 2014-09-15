@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model
+END
+DomainObjectInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/DomainObjectInterface.php
+END
+AclInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/AclInterface.php
+END
+EntryInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/EntryInterface.php
+END
+PermissionGrantingStrategyInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/PermissionGrantingStrategyInterface.php
+END
+FieldEntryInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/FieldEntryInterface.php
+END
+AuditLoggerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/AuditLoggerInterface.php
+END
+MutableAclInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/MutableAclInterface.php
+END
+AuditableAclInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/AuditableAclInterface.php
+END
+AclProviderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/AclProviderInterface.php
+END
+AuditableEntryInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/AuditableEntryInterface.php
+END
+ObjectIdentityInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/ObjectIdentityInterface.php
+END
+SecurityIdentityInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/SecurityIdentityInterface.php
+END
+ObjectIdentityRetrievalStrategyInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/ObjectIdentityRetrievalStrategyInterface.php
+END
+SecurityIdentityRetrievalStrategyInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/SecurityIdentityRetrievalStrategyInterface.php
+END
+AclCacheInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/AclCacheInterface.php
+END
+MutableAclProviderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Acl/Model/MutableAclProviderInterface.php
+END

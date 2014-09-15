@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/web.xml
+END
+test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/test.xml
+END
+form_csrf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/form_csrf.xml
+END
+esi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/esi.xml
+END
+services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/services.xml
+END
+session.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/session.xml
+END
+security_csrf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/security_csrf.xml
+END
+validator.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/validator.xml
+END
+debug.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/debug.xml
+END
+routing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/routing.xml
+END
+profiling.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/profiling.xml
+END
+fragment_renderer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/fragment_renderer.xml
+END
+router_prod.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/router_prod.php
+END
+annotations.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/annotations.xml
+END
+translation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/translation.xml
+END
+form.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/form.xml
+END
+templating.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/templating.xml
+END
+router_dev.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/router_dev.php
+END
+property_access.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/property_access.xml
+END
+security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/security.xml
+END
+fragment_listener.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/fragment_listener.xml
+END
+form_debug.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/form_debug.xml
+END
+collectors.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/collectors.xml
+END
+serializer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/serializer.xml
+END
+debug_prod.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/debug_prod.xml
+END
+templating_debug.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/templating_debug.xml
+END
+templating_php.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/templating_php.xml
+END

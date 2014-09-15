@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/FakeAdapter
+END
+UnsupportedAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/FakeAdapter/UnsupportedAdapter.php
+END
+FailingAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/FakeAdapter/FailingAdapter.php
+END
+DummyAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/FakeAdapter/DummyAdapter.php
+END
+NamedAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/FakeAdapter/NamedAdapter.php
+END

@@ -1,0 +1,57 @@
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+
+{% block title %}Block{% endblock %}
+
+{% block stylesheet %}
+    <link href="{{ asset('bundles/msscore/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/msscore/css/jasny-bootstrap.css') }}" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: #eee;
+      }
+      
+      #profile {
+          //margin-left: 300px;
+      }
+
+    </style>
+{% endblock %}
+
+{% block javascript %}
+<script src="{{ asset('bundles/msscore/js/jasny-bootstrap.min.js') }}"></script>
+<script src="{{asset('bundles/msscore/js/swfobject_modified.js')}}"></script>
+{% endblock %}   
+    
+{% block content %}
+<h1 style="margin-left:100px"> 
+    <a class="btn btn-default" href="{{url('mss_core_user_profile')}}">My Profile</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_foes')}}">My Foes</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_channels', {'username': username})}}">My channels</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_subchannels', {'username': username})}}">Subscribed channels</a>
+</h1>
+<h1>Select how to block {{toname}} </h1>
+<h1>
+    <a style="width: 200px" class="btn btn-primary" href="{{url('mss_core_user_blocktype', {'toname': toname, 'type': 'allviewing'})}}">Block All Viewing</a>
+    <a style="width: 200px" class="btn btn-primary" href="{{url('mss_core_user_blocktype', {'toname': toname, 'type': 'alldownloading'})}}">Block All Downloading</a>
+    <br>
+    <a style="width: 200px" class="btn btn-primary" href="{{url('mss_core_user_blocktype', {'toname': toname, 'type': 'textviewing'})}}">Block Text Viewing</a>
+    <a style="width: 200px" class="btn btn-primary" href="{{url('mss_core_user_blocktype', {'toname': toname, 'type': 'textdownloading'})}}">Block Text Downloading </a>
+    <br>
+    <a style="width: 200px" class="btn btn-primary" href="{{url('mss_core_user_blocktype', {'toname': toname, 'type': 'imageviewing'})}}">Block Image Viewing</a>
+    <a style="width: 200px" class="btn btn-primary" href="{{url('mss_core_user_blocktype', {'toname': toname, 'type': 'imagedownloading'})}}">Block Image Downloading</a>
+    <br>
+    <a style="width: 200px" class="btn btn-primary" href="{{url('mss_core_user_blocktype', {'toname': toname, 'type': 'audioviewing'})}}">Block Audio Viewing</a>
+    <a style="width: 200px" class="btn btn-primary" href="{{url('mss_core_user_blocktype', {'toname': toname, 'type': 'audiodownloading'})}}">Block Audio Downloading</a>
+    <br>
+    <a style="width: 200px" class="btn btn-primary" href="{{url('mss_core_user_blocktype', {'toname': toname, 'type': 'vedioviewing'})}}">Block Vedio Viewing</a>
+    <a style="width: 200px" class="btn btn-primary" href="{{url('mss_core_user_blocktype', {'toname': toname, 'type': 'vedioviewing'})}}">Block Vedio Downloading</a>
+    <br>
+    <a style="width: 200px" class="btn btn-primary" href="{{url('mss_core_user_blocktype', {'toname': toname, 'type': 'someviewing'})}}">Block Some Viewing</a>
+    <a style="width: 200px" class="btn btn-primary" href="{{url('mss_core_user_blocktype', {'toname': toname, 'type': 'somedownloading'})}}">Block Some Downloading</a>
+    
+<br>
+
+</h1>
+{% endblock %}

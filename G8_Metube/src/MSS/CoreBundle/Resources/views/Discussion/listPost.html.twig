@@ -1,0 +1,232 @@
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+
+{% block stylesheet %}
+<style type="text/css">
+    /*
+ * Base structure
+ */
+
+    /* Move down content because we have a fixed navbar that is 50px tall */
+    body {
+        padding-top: 50px;
+    }
+
+
+    /*
+     * Global add-ons
+     */
+
+    .sub-header {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+
+    /*
+     * Sidebar
+     */
+
+    /* Hide for mobile, show later */
+    .sidebar {
+        display: none;
+    }
+    @media (min-width: 768px) {
+        .sidebar {
+            position: fixed;
+            top: 51px;
+            bottom: 0;
+            left: 0;
+            z-index: 1000;
+            display: block;
+            padding: 20px;
+            overflow-x: hidden;
+            overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+            background-color: #f5f5f5;
+            border-right: 1px solid #eee;
+        }
+    }
+
+    /* Sidebar navigation */
+    .nav-sidebar {
+        margin-right: -21px; /* 20px padding + 1px border */
+        margin-bottom: 20px;
+        margin-left: -20px;
+    }
+    .nav-sidebar > li > a {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .nav-sidebar > .active > a {
+        color: #fff;
+        background-color: #428bca;
+    }
+
+
+    /*
+     * Main content
+     */
+
+    .main {
+        padding: 20px;
+    }
+    
+    .main .page-header {
+        margin-top: 0;
+    }
+
+
+    /*
+     * Placeholder dashboard ideas
+     */
+
+    .placeholders {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .placeholders h4 {
+        margin-bottom: 0;
+    }
+    .placeholder {
+        margin-bottom: 20px;
+    }
+    .placeholder img {
+        display: inline-block;
+        border-radius: 50%;
+    }
+    
+    .img-circle {
+        margin-top:18px;
+        height:70px;
+        width:70px;
+    }
+    
+    .page-header {
+        margin-top: 55px;
+        padding-top: 9px;
+        border-top:1px solid #eeeeee;
+        font-weight:700;
+        text-transform:uppercase;
+        letter-spacing:2px;
+      }
+</style>
+{% endblock %}
+
+{% block javascript%}
+<script type="text/javascript">
+    function replyfun(groupid, topicid, postid, poster){
+        $('#grouptag').val(groupid);
+        $('#topictag').val(topicid);
+        $('#posttag').val(postid);
+        $('#replytotag').val(poster);
+    }
+</script>
+{% endblock %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">
+                <li class="active"><a href="{{ path('mss_core_discussion_listt',{'groupid':groupid}) }}">Your group topics</a></li>
+                <li><a data-toggle="modal" href="#myModal">Create a post</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        {% if posts is defined %}
+        {% for post in posts %}
+        <ul class="media-list">
+            {% if post.parent == null %}
+            <li class="media">
+                <div class="media">
+                    <a class="pull-left" href="#">
+                      <img class="media-object" width="80px" height="80px" src="{{ asset('uploads/' ~ post.photopath)}}">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">{{ post.poster }} </h4>
+                      <h5>{{ post.content }}</h5>
+                      <small class="text-muted">{{ post.createtime}} • <a data-toggle="modal" href="#replyModal" class="text-muted" onclick="replyfun('{{groupid}}','{{topicid}}','{{post.postid}}','{{post.poster}}')">Reply</a></small>
+                    </div>
+                </div>
+            </li>
+            <div style="margin-top:10px; margin-left: 50px">
+            <li>
+                <ul>
+                    {% for reply in posts %}
+                    {% if reply.parent == post.postid%}
+                    <li class="media">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                              <img class="media-object" width="80px" height="80px" src="{{ asset('uploads/' ~ reply.photopath)}}">
+                            </a>
+                            <div class="media-body">
+                              <h4 class="media-heading">{{ reply.poster }}@{{ reply.replyto }}</h4>
+                              <h5>{{ reply.content }}</h5>
+                              <small class="text-muted">{{ reply.createtime}} • <a data-toggle="modal" href="#replyModal" class="text-muted" onclick="replyfun('{{groupid}}','{{topicid}}','{{post.postid}}','{{reply.poster}}')">Reply</a></small>
+                            </div>
+                        </div>
+                    </li>   
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </li>
+            </div>
+            {% endif %}
+        </ul>    
+        {% endfor %}
+        {% else %}
+        No discussion topic, go to create now!
+        {% endif %}
+        </div>
+    </div>
+</div>
+
+<form class="postForm" method ="POST"  data-async enctype="multipart/form-data" action="{{ path('mss_core_discussion_createp',{'groupid':groupid,'topicid':topicid}) }}">
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">New post</h4>
+            </div>
+            <div class="modal-body">
+                  <div class="form-group">
+                      <textarea class="form-control" name="content" id="content" rows="3"></textarea>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+              <button class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+  </div>
+</div>
+</form>
+
+<form class="replyForm" method ="POST"  data-async enctype="multipart/form-data" action="{{ path('mss_core_discussion_replyp')}}">
+<input name="grouptag" id="grouptag" type="hidden"/>
+<input name="topictag" id="topictag" type="hidden" />
+<input name="posttag" id="posttag" type="hidden" />
+<input name="replytotag" id="replytotag" type="hidden" />
+<div id="replyModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="replyLabel" aria-hidden="true">
+  <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="replyLabel">New post</h4>
+            </div>
+            <div class="modal-body">
+                  <div class="form-group">
+                      <textarea class="form-control" name="replycontent" id="replycontent" rows="3"></textarea>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+              <button class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+  </div>
+</div>
+</form>
+{% endblock %}
+
+{% block fooder %}
+{% endblock %}

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced
+END
+Foo.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/Foo.php
+END
+Bar.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/Bar.php
+END
+FooBar.php
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/FooBar.php
+END
+Baz.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/Namespaced/Baz.php
+END

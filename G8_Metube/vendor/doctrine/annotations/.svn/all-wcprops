@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/annotations
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/annotations/.travis.yml
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/annotations/phpunit.xml.dist
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/annotations/README.md
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/annotations/composer.json
+END

@@ -1,0 +1,184 @@
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block stylesheet %}
+    <link href="{{ asset('bundles/msscore/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/msscore/css/jasny-bootstrap.css') }}" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: #eee;
+      }
+
+      .form-signin {
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin .checkbox {
+        font-weight: normal;
+      }
+      .form-signin .form-control {
+        position: relative;
+        height: auto;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 10px;
+        font-size: 16px;
+      }
+      .form-signin .form-control:focus {
+        z-index: 2;
+      }
+      .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+      .form-signin input[type="passwordRe"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      } 
+      .form-signin input[type="password"] {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+    </style>
+{% endblock %}
+
+{% block javascript %}
+<script src="{{ asset('bundles/msscore/js/jasny-bootstrap.min.js') }}"></script>
+<script src="{{asset('bundles/msscore/js/swfobject_modified.js')}}"></script>
+{% endblock %}   
+    
+{% block content %}
+<h1 style="margin-left:100px">   
+    <a class="btn btn-default" href="{{url('mss_core_user_profile')}}">My Profile</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_friends')}}">My Friends</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_foes')}}">My Foes</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_channels', {'username': username})}}">My channels</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_subchannels', {'username': username})}}">Subscribed channels</a>
+</h1>
+
+    {% if type == 'photo' %}
+        <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <form class="uploadForm" method ="POST"  enctype="multipart/form-data" action="{{path('mss_core_user_upload')}}">
+        <div class="col-md-4">
+           <h2>Upload photo</h2>
+           
+           <div class="fileinput fileinput-new" data-provides="fileinput">
+            <div class="fileinput-new thumbnail" style="width: 350px; height: 300px;">
+              <img style="max-width:350px; max-height:300px" src="{{ asset('uploads/' ~ photopath) }}" data-src="holder.js/100%x100%" alt="...">
+            </div>
+            <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 350px; max-height: 300px;"></div>
+            <div>
+              <span class="btn btn-default btn-file">
+                  <span class="fileinput-new">Select</span>
+                  <span class="fileinput-exists">Change</span>
+                  <input type="file" name="img">
+              </span>
+                <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+            <a class="btn btn-primary" href="{{path('mss_core_user_profile')}}" >Cancle</a>
+            </div>
+            <div>
+                
+            </div>
+          </div>
+          
+          
+        </div>
+          
+        <div class="col-md-6">
+          <h2>Image description</h2>
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" name="title" placeholder="Enter title" required autofocus>
+          </div>
+          <div class="form-group">
+            <label for="keywords">Keywords</label>
+            <div class="row">
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" name="keyword1" placeholder="Nature" required>
+                </div>
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" name="keyword2" placeholder="Celebrities">
+                </div>
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" name="keyword3" placeholder="Personal life">
+                </div>
+          </div>
+          </div>
+          <div class="form-group">
+            <label for="description">Description</label>
+            <textarea class="form-control" name="description" placeholder="Description" rows="3" required></textarea>
+          </div>
+
+          <button class="btn btn-primary fileupload-exists" type="submit">Upload</button>
+       </div>
+      </div>
+      </form>   
+      </div>
+    {% endif %}
+        
+    {% if type == 'general' %}
+        <div class="container">
+
+      <form class="form-signin" role="form" method="POST" action="{{ path("mss_core_user_changeinfo") }}" data-validate="parsley">
+        <h2 class="form-signin-heading" style="font-size: 32px">Change Information</h2>
+        
+        {% if error is defined %}
+        <div style="color:red">{{error}}</div>
+        {% endif %}
+        
+        <input type="email" id="email" name="email" class="form-control" placeholder="Email address" required autofocus>
+        <input type="input" id="address" name="address" class="form-control" placeholder="Home Address">
+        <input type="input" id="sed" name="sex" class="form-control" placeholder="Your Sex">
+        
+        <br>
+        <!-- btn-block -->
+        <div align="center">
+        <button name="singup" class="btn btn-lg btn-primary" type="submit">Change</button>
+        <a class="btn btn-lg btn-primary" href="{{path('mss_core_user_profile')}}" >Cancle</a>
+        </div>
+      </form>
+
+    </div> <!-- /container -->
+    {% endif %}
+        
+    {% if type == 'password' %}
+        <div class="container">
+
+      <form class="form-signin" role="form" method="POST" action="{{ path("mss_core_user_changepass") }}" data-validate="parsley">
+        <h2 class="form-signin-heading">Change Password</h2>
+        <!--<h3 class="form-signin-description">It’s free and always will be.</h3>-->
+        {% if perror is defined %}
+        <div style="color:red">{{perror}}</div>
+        {% endif %}
+        
+        <input type="password" id="oldpassword" name="oldpassword" class="form-control" placeholder="Old Password" required autofocus>
+        <input type="password" id="password" name="password" class="form-control" placeholder="New Password" required>
+        <input type="password" id="passwordRe" name="passwordRe" class="form-control" placeholder="New Password Repeat" data-equalto="#password" required>
+        
+        <br>
+        <!-- btn-block -->
+        <div align="center">
+        <button name="singup" class="btn btn-lg btn-primary" type="submit">Change</button>
+        <a class="btn btn-lg btn-primary" href="{{path('mss_core_user_profile')}}" >Cancle</a>
+        </div>
+      </form>
+
+    </div> <!-- /container -->
+    {% endif %}
+
+{% endblock %}

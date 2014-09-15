@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation
+END
+IgnoreAnnotation.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation/IgnoreAnnotation.php
+END
+Required.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation/Required.php
+END
+Attribute.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation/Attribute.php
+END
+Enum.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation/Enum.php
+END
+Attributes.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation/Attributes.php
+END
+Target.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation/Target.php
+END

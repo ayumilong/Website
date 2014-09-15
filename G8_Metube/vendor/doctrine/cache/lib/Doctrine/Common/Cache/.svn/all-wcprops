@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache
+END
+RedisCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RedisCache.php
+END
+MemcachedCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcachedCache.php
+END
+ArrayCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ArrayCache.php
+END
+FileCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FileCache.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Cache.php
+END
+WinCacheCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/WinCacheCache.php
+END
+FilesystemCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FilesystemCache.php
+END
+MongoDBCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MongoDBCache.php
+END
+RiakCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RiakCache.php
+END
+PhpFileCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/PhpFileCache.php
+END
+CacheProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php
+END
+ZendDataCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ZendDataCache.php
+END
+XcacheCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/XcacheCache.php
+END
+CouchbaseCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CouchbaseCache.php
+END
+Version.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Version.php
+END
+MemcacheCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcacheCache.php
+END
+ApcCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ApcCache.php
+END

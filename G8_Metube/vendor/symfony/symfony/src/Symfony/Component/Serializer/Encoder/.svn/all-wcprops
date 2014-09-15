@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder
+END
+JsonEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/JsonEncoder.php
+END
+SerializerAwareEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/SerializerAwareEncoder.php
+END
+JsonDecode.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/JsonDecode.php
+END
+EncoderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/EncoderInterface.php
+END
+XmlEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/XmlEncoder.php
+END
+ChainEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/ChainEncoder.php
+END
+DecoderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/DecoderInterface.php
+END
+JsonEncode.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/JsonEncode.php
+END
+NormalizationAwareInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/NormalizationAwareInterface.php
+END
+ChainDecoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/ChainDecoder.php
+END

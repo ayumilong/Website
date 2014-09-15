@@ -1,0 +1,65 @@
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+
+{% block title %}Active your account{% endblock %}
+{% block stylesheet %}
+    <link href="{{ asset('bundles/msscore/css/bootstrap.min.css') }}" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: #eee;
+      }
+
+      .form-signin {
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin .checkbox {
+        font-weight: normal;
+      }
+      .form-signin .form-control {
+        position: relative;
+        height: auto;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 10px;
+        font-size: 16px;
+      }
+      .form-signin .form-control:focus {
+        z-index: 2;
+      }
+      .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+      .form-signin input[type="passwordRe"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      } 
+      .form-signin input[type="password"] {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+    </style>
+{% endblock %}
+{% block content %}
+<div class="container">
+
+      
+        <h2 style="font-size: 36px">Please check your email and active your account!</h2>
+        {% if message is defined %}
+        <div>{{message}}</div>
+        {% endif %}
+    </div> <!-- /container -->
+
+{% endblock %}

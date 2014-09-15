@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MSS\CoreBundle\Entity\Textmedia" table="textmedia">
+    <id name="textid" type="integer" column="textid">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="uploadname" type="string" column="uploadname" length="20" nullable="false"/>
+    <field name="title" type="string" column="title" length="40" nullable="false"/>
+    <field name="keywords" type="string" column="keywords" length="40" nullable="false"/>
+    <field name="description" type="string" column="description" length="100" nullable="false"/>
+    <field name="uploadpath" type="string" column="uploadpath" length="100" nullable="false"/>
+    <field name="updatetime" type="date" column="updatetime" nullable="false"/>
+    <field name="viewtimes" type="integer" column="viewtimes" nullable="true"/>
+    <field name="downloadtimes" type="integer" column="downloadtimes" nullable="true"/>
+    <field name="likes" type="integer" column="likes" nullable="true"/>
+    <field name="dislikes" type="integer" column="dislikes" nullable="true"/>
+    <field name="isshare" type="integer" column="isshare" nullable="true"/>
+    <field name="security" type="integer" column="security" nullable="true"/>
+  </entity>
+</doctrine-mapping>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver
+END
+StaticPHPDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/StaticPHPDriver.php
+END
+XmlDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/XmlDriver.php
+END
+DriverChain.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/DriverChain.php
+END
+YamlDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/YamlDriver.php
+END
+DatabaseDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/DatabaseDriver.php
+END
+SimplifiedXmlDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/SimplifiedXmlDriver.php
+END
+PHPDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/PHPDriver.php
+END
+SimplifiedYamlDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/SimplifiedYamlDriver.php
+END
+DoctrineAnnotations.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/DoctrineAnnotations.php
+END
+AnnotationDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/AnnotationDriver.php
+END

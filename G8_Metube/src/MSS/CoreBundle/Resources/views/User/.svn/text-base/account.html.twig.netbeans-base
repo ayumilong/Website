@@ -1,0 +1,73 @@
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block stylesheet %}
+    <link href="{{ asset('bundles/msscore/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/msscore/css/jasny-bootstrap.css') }}" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: #eee;
+      }
+      
+      #profile {
+          //margin-left: 300px;
+      }
+
+    </style>
+{% endblock %}
+
+{% block javascript %}
+<script src="{{ asset('bundles/msscore/js/jasny-bootstrap.min.js') }}"></script>
+<script src="{{asset('bundles/msscore/js/swfobject_modified.js')}}"></script>
+{% endblock %}   
+    
+{% block content %}
+
+    
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="btn btn-lg btn-default" style="color:blue">My Profile</div>
+      <div class="row">
+        <form class="uploadForm" method ="POST"  enctype="multipart/form-data" action="{{path('mss_core_user_upload')}}">
+        
+            <div class="col-md-4">
+            
+           
+           
+           <div class="fileinput fileinput-new" data-provides="fileinput">
+            <div class="fileinput-new thumbnail">
+              <img style="max-width: 350px; max-height: 300px;" src="{{ asset('uploads/' ~ photopath) }}" data-src="holder.js/100%x100%" alt="...">
+            </div>
+            <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 350px; max-height: 300px;"></div>
+            <div>
+              <span class="btn btn-default btn-file">
+                  <a href="{{url('mss_core_user_updateprofile', {'type': 'photo'})}}">Change Photo</a>
+              </span>
+             </div>
+            
+             <div>
+              <span class="btn btn-default btn-file">
+                  <a href="{{url('mss_core_user_updateprofile', {'type': 'password'})}}">Change Password</a>
+              </span>
+             </div>
+          </div>             
+        </div>
+        <div class="col-md-6">
+            <h2>
+            Email: {{email}}
+            <a class="btn btn-primary" href="updateprofile">Edit</a>
+        </h2>
+        <h2>Address: {{address}} <a class="btn btn-primary" href="updateprofile">Edit</a></h2>
+        <h2>Sex: {{sex}} <a class="btn btn-primary" href="updateprofile">Edit</a></h2>
+        <h2>Friends: <a class="btn btn-primary"  href="friends">{{friends}}</a></h2>
+        <h2>Foes: <a class="btn btn-primary" href="foes">{{foes}}</a></h2>
+        <h2>My Channels: <a class="btn btn-primary" href="{{url('mss_core_user_channels', {'username': username})}}">4</a></h2>
+        <h2>Subscribed Channels: <a class="btn btn-primary" href="{{url('mss_core_user_subchannels', {'username': username})}}">{{subchannels}}</a></h2>
+        </div>
+      </div>
+      </form>   
+      </div>
+{% endblock %}

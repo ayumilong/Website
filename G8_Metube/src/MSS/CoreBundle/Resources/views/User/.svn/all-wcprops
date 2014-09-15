@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/yaolinz_MeTube/!svn/ver/343/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User
+END
+inactive.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/yaolinz_MeTube/!svn/ver/343/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User/inactive.html.twig
+END
+email.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/yaolinz_MeTube/!svn/ver/340/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User/email.html.twig
+END
+block.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/yaolinz_MeTube/!svn/ver/348/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User/block.html.twig
+END
+account.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/yaolinz_MeTube/!svn/ver/348/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User/account.html.twig
+END
+channels.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/yaolinz_MeTube/!svn/ver/348/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User/channels.html.twig
+END
+updateprofile.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/yaolinz_MeTube/!svn/ver/343/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User/updateprofile.html.twig
+END
+subchannels.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/yaolinz_MeTube/!svn/ver/348/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User/subchannels.html.twig
+END
+friends.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/yaolinz_MeTube/!svn/ver/348/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User/friends.html.twig
+END
+active.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/yaolinz_MeTube/!svn/ver/343/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User/active.html.twig
+END
+foes.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/yaolinz_MeTube/!svn/ver/348/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User/foes.html.twig
+END
+signup.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/yaolinz_MeTube/!svn/ver/343/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User/signup.html.twig
+END
+login.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/yaolinz_MeTube/!svn/ver/343/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/User/login.html.twig
+END

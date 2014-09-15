@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Proxy
+END
+ProxyGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyGenerator.php
+END
+ProxyDefinition.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyDefinition.php
+END
+AbstractProxyFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Proxy/AbstractProxyFactory.php
+END
+Autoloader.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Autoloader.php
+END
+Proxy.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Proxy.php
+END

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MSS\CoreBundle\Entity\Playlist" table="playlist">
+    <indexes>
+      <index name="creator" columns="creator"/>
+    </indexes>
+    <id name="plid" type="integer" column="plid">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="title" type="string" column="title" length="40" nullable="false"/>
+    <field name="isfavorate" type="integer" column="isfavorate" nullable="true"/>
+    <field name="audiocontent" type="string" column="audiocontent" length="200" nullable="true"/>
+    <field name="vediocontent" type="string" column="vediocontent" length="200" nullable="true"/>
+    <many-to-one field="creator" target-entity="User">
+      <join-columns>
+        <join-column name="creator" referenced-column-name="username"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

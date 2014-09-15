@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Locale
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Locale/README.md
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Locale/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Locale/LICENSE
+END
+Locale.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Locale/Locale.php
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Locale/CHANGELOG.md
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Locale/phpunit.xml.dist
+END

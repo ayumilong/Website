@@ -1,0 +1,254 @@
+mss_core_homepage:
+    pattern:  /
+    defaults: { _controller: MSSCoreBundle:Default:index }
+    
+mss_core_homepage2:
+    pattern:  /index2/
+    defaults: { _controller: MSSCoreBundle:Default:index2 }    
+    
+mss_core_user_login:
+    pattern:  /login/
+    defaults: { _controller: MSSCoreBundle:User:login }
+    
+mss_core_user_signup:
+    pattern:  /signup/
+    defaults: { _controller: MSSCoreBundle:User:signup }
+    
+mss_core_user_active:
+    pattern:  /active/{username}
+    defaults: { _controller: MSSCoreBundle:User:active }
+    
+mss_core_user_upload:
+    pattern: /active
+    defaults: { _controller: MSSCoreBundle:User:upload}
+    
+mss_core_user_profile:
+    pattern: /profile
+    defaults: { _controller: MSSCoreBundle:User:profile}
+    
+mss_core_user_updateprofile:
+    pattern: /updateprofile/{type}
+    defaults: { _controller: MSSCoreBundle:User:updateprofile, type: general}
+    
+mss_core_user_changepass:
+    pattern: /changepass
+    defaults: { _controller: MSSCoreBundle:User:changepass}
+    
+mss_core_user_changeinfo:
+    pattern: /changeinfo
+    defaults: { _controller: MSSCoreBundle:User:changeinfo}
+    
+mss_core_user_channels:
+    pattern: /channels/{username}/{type}
+    defaults: { _controller: MSSCoreBundle:User:channels, type: all}
+    
+mss_core_user_subchannels:
+    pattern: /subchannels/{username}/{type}
+    defaults: { _controller: MSSCoreBundle:User:subchannels, type: all}
+    
+mss_core_user_subscribechannel:
+    pattern: /subscribechannel/{publisher}/{type}
+    defaults: { _controller: MSSCoreBundle:User:subscribechannel}
+    
+mss_core_user_unsubscribechannel:
+    pattern: /unsubscribecahnnel/{publisher}/{type}
+    defaults: { _controller: MSSCoreBundle:User:unsubscribechannel}
+    
+mss_core_user_block:
+    pattern: /block/{toname}
+    defaults: { _controller: MSSCoreBundle:User:block}
+    
+mss_core_user_unblock:
+    pattern: /unblock/{toname}
+    defaults: { _controller: MSSCoreBundle:User:unblock}
+    
+mss_core_user_blocktype:
+    pattern: /blocktype/{toname}/{type}
+    defaults: { _controller: MSSCoreBundle:User:blocktype}
+    
+mss_core_user_friends:
+    pattern: /friends
+    defaults: { _controller: MSSCoreBundle:User:friends}
+    
+mss_core_user_makefriend:
+    pattern: /makefriend/{toname}
+    defaults: { _controller: MSSCoreBundle:User:makefriend}
+    
+mss_core_user_confirmfriend:
+    pattern: /confirmfriend/{toname}
+    defaults: { _controller: MSSCoreBundle:User:confirmfriend}
+    
+mss_core_user_refusefriend:
+    pattern: /refusefriend/{toname}
+    defaults: { _controller: MSSCoreBundle:User:refusefriend}
+
+mss_core_user_canclefriend:
+    pattern: /canclefriend/{toname}
+    defaults: { _controller: MSSCoreBundle:User:canclefriend}
+    
+mss_core_user_unfriend:
+    pattern: /unfriend/{toname}
+    defaults: { _controller: MSSCoreBundle:User:unfriend}
+    
+mss_core_user_foes:
+    pattern: /foes
+    defaults: { _controller: MSSCoreBundle:User:foes}
+    
+mss_core_user_makefoe:
+    pattern: /makefoe/{toname}
+    defaults: { _controller: MSSCoreBundle:User:makefoe}
+   
+mss_core_user_unfoe:
+    pattern: /unfoe/{toname}
+    defaults: { _controller: MSSCoreBundle:User:unfoe}
+    
+mss_core_user_logout:
+    pattern:  /logout/
+    defaults: { _controller: MSSCoreBundle:User:logout }
+    
+    
+mss_core_media_uploadSel:
+    pattern:  /uploadSel/
+    defaults: { _controller: MSSCoreBundle:Media:uploadSel }
+    
+mss_core_media_uploadImage:
+    pattern:  /uploadImage/
+    defaults: { _controller: MSSCoreBundle:Media:uploadImage }
+    
+mss_core_media_uploadText:
+    pattern:  /uploadText/
+    defaults: { _controller: MSSCoreBundle:Media:uploadText }
+    
+mss_core_media_uploadAudio:
+    pattern:  /uploadAudio/
+    defaults: { _controller: MSSCoreBundle:Media:uploadAudio }
+    
+mss_core_media_uploadVideo:
+    pattern:  /uploadVideo/
+    defaults: { _controller: MSSCoreBundle:Media:uploadVideo }
+    
+mss_core_media_download:
+    pattern: /download
+    defaults: { _controller: MSSCoreBundle:Media:download}
+    
+    
+mss_core_cate_images:
+    pattern:  /cateimages/{username}
+    defaults: { _controller: MSSCoreBundle:Category:images, username: all }
+    
+mss_core_cate_texts:
+    pattern:  /catetexts/{username}
+    defaults: { _controller: MSSCoreBundle:Category:texts, username: all }
+    
+mss_core_cate_audios:
+    pattern:  /cateaudios/{username}
+    defaults: { _controller: MSSCoreBundle:Category:audios, username: all }
+
+mss_core_cate_videos:
+    pattern:  /catevideos/{username}
+    defaults: { _controller: MSSCoreBundle:Category:videos, username: all }
+    
+mss_core_cate_specific:
+    pattern:  /specific/{type}/{mediaid}/{keywords}
+    defaults: { _controller: MSSCoreBundle:Category:specific }
+    
+    
+mss_core_list_play:
+    pattern:  /play
+    defaults: { _controller: MSSCoreBundle:Medialist:play }
+    
+mss_core_list_create:
+    pattern:  /create
+    defaults: { _controller: MSSCoreBundle:Medialist:create }
+    
+mss_core_list_addToPlay:
+    pattern:  /addtoplay/{type}/{mediaid}/{keywords}/{plid}
+    defaults: { _controller: MSSCoreBundle:Medialist:addToPlay }
+    
+mss_core_list_details:
+    pattern:  /details/{plid}
+    defaults: { _controller: MSSCoreBundle:Medialist:details }
+    
+mss_core_list_favorite:
+    pattern:  /favorite/{type}/{mediaid}
+    defaults: { _controller: MSSCoreBundle:Medialist:favorite } 
+    
+    
+mss_core_comment_creat:
+    pattern:  /create/{type}/{mediaid}
+    defaults: { _controller: MSSCoreBundle:Comments:create } 
+    
+mss_core_comment_reply:
+    pattern:  /reply/{type}/{mediaid}/{commentid}
+    defaults: { _controller: MSSCoreBundle:Comments:reply } 
+    
+mss_core_comment_getreplies:
+    pattern:  /getreplies/
+    defaults: { _controller: MSSCoreBundle:Comments:getReplies } 
+ 
+ 
+ 
+mss_core_message_list:  
+    pattern:  /list/
+    defaults: { _controller: MSSCoreBundle:Message:getAll } 
+    
+mss_core_message_create:  
+    pattern:  /create/
+    defaults: { _controller: MSSCoreBundle:Message:create }
+    
+mss_core_message_read:
+    pattern:  /read/
+    defaults: { _controller: MSSCoreBundle:Message:read }
+    
+mss_core_message_reply:
+    pattern:  /reply/
+    defaults: { _controller: MSSCoreBundle:Message:reply }
+    
+    
+    
+    
+mss_core_discussion_listg:
+    pattern:  /listGroup/
+    defaults: { _controller: MSSCoreBundle:Discussion:listGroup }  
+    
+mss_core_discussion_createg:
+    pattern:  /createGroup/
+    defaults: { _controller: MSSCoreBundle:Discussion:createGroup }   
+    
+mss_core_discussion_listt:
+    pattern:  /listTopic/{groupid}
+    defaults: { _controller: MSSCoreBundle:Discussion:listTopic }  
+    
+mss_core_discussion_createt:
+    pattern:  /createTopic/{groupid}
+    defaults: { _controller: MSSCoreBundle:Discussion:createTopic }    
+    
+mss_core_discussion_listp:
+    pattern:  /listPost/{groupid}/{topicid}
+    defaults: { _controller: MSSCoreBundle:Discussion:listPost }  
+    
+mss_core_discussion_createp:
+    pattern:  /createPost/{groupid}/{topicid}
+    defaults: { _controller: MSSCoreBundle:Discussion:createPost }   
+    
+mss_core_discussion_replyp:
+    pattern:  /replyPost/
+    defaults: { _controller: MSSCoreBundle:Discussion:replyPost }
+    
+    
+mss_core_media_rate:
+    pattern:  /newRate/
+    defaults: { _controller: MSSCoreBundle:Rating:newRate }   
+    
+mss_core_media_ksearch:
+    pattern:  /keySearch/{key}
+    defaults: { _controller: MSSCoreBundle:Search:keySearch }
+    
+mss_core_media_fsearch:
+    pattern:  /keySearch/
+    defaults: { _controller: MSSCoreBundle:Search:featureSearch }    
+    
+mss_core_media_cksearch:
+    pattern:  /cloudkeySearch/{key}
+    defaults: { _controller: MSSCoreBundle:Search:cloudkeySearch }
+    

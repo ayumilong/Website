@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MSS\CoreBundle\Entity\Rating" table="rating">
+    <indexes>
+      <index name="rater" columns="rater"/>
+    </indexes>
+    <id name="rateid" type="integer" column="rateid">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="mediatype" type="integer" column="mediatype" nullable="false"/>
+    <field name="mediaid" type="integer" column="mediaid" nullable="false"/>
+    <field name="stars" type="decimal" column="stars" precision="10" scale="0" nullable="false"/>
+    <many-to-one field="rater" target-entity="User">
+      <join-columns>
+        <join-column name="rater" referenced-column-name="username"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

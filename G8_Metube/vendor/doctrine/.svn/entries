@@ -1,0 +1,55 @@
+10
+
+dir
+345
+https://svn.cs.clemson.edu/repos/yaolinz_MeTube/MediaSharingSystem/vendor/doctrine
+https://svn.cs.clemson.edu/repos/yaolinz_MeTube
+
+
+
+2014-03-17T22:08:13.182844Z
+320
+yanb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bc8b4c48-817f-4441-8f01-0146e9725ffa
+
+lexer
+dir
+
+dbal
+dir
+
+cache
+dir
+
+inflector
+dir
+
+common
+dir
+
+annotations
+dir
+
+orm
+dir
+
+collections
+dir
+
+doctrine-bundle
+dir
+

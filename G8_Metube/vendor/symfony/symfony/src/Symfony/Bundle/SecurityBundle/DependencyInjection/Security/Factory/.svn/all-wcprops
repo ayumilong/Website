@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory
+END
+FormLoginFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/FormLoginFactory.php
+END
+SimpleFormFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/SimpleFormFactory.php
+END
+HttpDigestFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/HttpDigestFactory.php
+END
+RememberMeFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/RememberMeFactory.php
+END
+SimplePreAuthenticationFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/SimplePreAuthenticationFactory.php
+END
+HttpBasicFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/HttpBasicFactory.php
+END
+AbstractFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/AbstractFactory.php
+END
+X509Factory.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/X509Factory.php
+END
+SecurityFactoryInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/SecurityFactoryInterface.php
+END

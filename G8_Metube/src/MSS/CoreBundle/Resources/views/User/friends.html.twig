@@ -1,0 +1,131 @@
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+
+{% block title %}Friends{% endblock %}
+
+{% block stylesheet %}
+    <link href="{{ asset('bundles/msscore/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/msscore/css/jasny-bootstrap.css') }}" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: #eee;
+      }
+      
+      #profile {
+          //margin-left: 300px;
+      }
+
+    </style>
+{% endblock %}
+
+{% block javascript %}
+<script src="{{ asset('bundles/msscore/js/jasny-bootstrap.min.js') }}"></script>
+<script src="{{asset('bundles/msscore/js/swfobject_modified.js')}}"></script>
+{% endblock %}   
+    
+{% block content %}
+<div class="container">
+<h1>
+    <a class="btn btn-default" href="{{url('mss_core_user_profile')}}">My Profile</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_foes')}}">My Foes</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_channels', {'username': username})}}">My channels</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_subchannels', {'username': username})}}">Subscribed channels</a>
+</h1>
+<h2>All Friends</h2>
+<big>
+<table style="width:800px" class="table table-striped">
+    {% for friend in friends %}
+	<tr>
+	<td>
+    <a class="  " style="width: 120px" href="{{url('mss_core_user_channels', {'username': friend.username})}}">{{friend.username}}</a>
+	</td>
+	<td>
+    <a class="  " href="{{url('mss_core_user_channels', {'username': friend.username})}}">Own Channel</a>
+	</td>
+	<td>
+    <a class="  " href="{{url('mss_core_user_subchannels', {'username': friend.username})}}">Subscribed Channel</a>
+	</td>
+	<td>
+    <a class="  " href="{{url('mss_core_user_block', {'toname': friend.username})}}">Block</a>
+	</td>
+	<td>
+    <a class="  " href="{{url('mss_core_user_unfriend', {'toname': friend.username})}}">Unfriend</a>
+	</td>
+	<td>
+    <a class="" href="{{url('mss_core_user_makefoe', {'toname': friend.username})}}">Make Foe</a>
+	</td>
+	</tr>
+    {% endfor %}
+</table>
+</big>
+
+<h2>Blocked Users</h2>
+<big>
+<table style="width:550px" class="table table-striped">
+    {% for block in blocks %}
+	<tr>
+	<td>
+    <a class=" " style="width: 120px" href="{{url('mss_core_user_channels', {'username': block.username})}}">{{block.username}}</a>
+	</td>
+	<td>
+    <a class=" " href="{{url('mss_core_user_unblock', {'toname': block.username})}}">Unblock</a>
+	</td>
+	<td>
+    <a class=" " href="{{url('mss_core_user_block', {'toname': block.username})}}">Change BLock</a>
+	</td>
+	<td>
+    <a class=" " href="{{url('mss_core_user_makefoe', {'toname': block.username})}}">Make foe</a>
+	</td>
+	</tr>
+    {% endfor %}
+</table>
+</big>
+
+<h2>Friends Request</h2>
+<big>
+<table style="width:550px" class="table table-striped">
+    {% for request in requests %}
+	<tr>
+	<td>
+    <a class="" style="width: 120px" href="{{url('mss_core_user_channels', {'username': request.username})}}">{{request.username}}</a>
+	</td>
+	<td>
+    <a class="" href="{{url('mss_core_user_confirmfriend', {'toname': request.username})}}">Confirm</a>
+	</td>
+	<td>
+    <a class="" href="{{url('mss_core_user_refusefriend', {'toname': request.username})}}">Refuse</a>
+	</td>
+	<td>
+    <a class="" href="{{url('mss_core_user_makefoe', {'toname': request.username})}}">Make Foe</a>
+	</td>
+	</tr>
+    {% endfor %}
+</table>
+</big>
+
+<h2>Need Confirm</h2>
+<big>
+<table style="width:550px" class="table table-striped">
+    {% for confirm in confirms %}
+	<tr>
+	<td>
+    <a class="" style="width: 120px" href="{{url('mss_core_user_channels', {'username': confirm.username})}}">{{confirm.username}}</a>
+	</td>
+	<td>
+    <a class="" href="{{url('mss_core_user_canclefriend', {'toname': confirm.username})}}">Cancle</a>
+	</td>
+	<td>
+    <a class="" href="{{url('mss_core_user_block', {'toname': confirm.username})}}">Block</a>
+	</td>
+	<td>
+    <a class="" href="{{url('mss_core_user_makefoe', {'toname': confirm.username})}}">Make foe</a>
+	</td>
+	</tr>
+    {% endfor %}
+</table>
+</big>
+
+</div>
+
+{% endblock %}

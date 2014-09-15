@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook
+END
+decorator-pattern.rst
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/decorator-pattern.rst
+END
+implementing-wakeup-or-clone.rst
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/implementing-wakeup-or-clone.rst
+END
+dql-user-defined-functions.rst
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/dql-user-defined-functions.rst
+END
+dql-custom-walkers.rst
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/dql-custom-walkers.rst
+END
+resolve-target-entity-listener.rst
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/resolve-target-entity-listener.rst
+END
+implementing-arrayaccess-for-domain-objects.rst
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/implementing-arrayaccess-for-domain-objects.rst
+END
+sql-table-prefixes.rst
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/sql-table-prefixes.rst
+END
+entities-in-session.rst
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/entities-in-session.rst
+END
+advanced-field-value-conversion-using-custom-mapping-types.rst
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/advanced-field-value-conversion-using-custom-mapping-types.rst
+END
+validation-of-entities.rst
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/validation-of-entities.rst
+END
+integrating-with-codeigniter.rst
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/integrating-with-codeigniter.rst
+END
+implementing-the-notify-changetracking-policy.rst
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/implementing-the-notify-changetracking-policy.rst
+END
+working-with-datetime.rst
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/working-with-datetime.rst
+END
+strategy-cookbook-introduction.rst
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/strategy-cookbook-introduction.rst
+END
+mysql-enums.rst
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/mysql-enums.rst
+END
+aggregate-fields.rst
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/orm/docs/en/cookbook/aggregate-fields.rst
+END

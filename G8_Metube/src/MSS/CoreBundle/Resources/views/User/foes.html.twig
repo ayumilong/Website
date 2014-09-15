@@ -1,0 +1,55 @@
+
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+
+{% block title %}Foes{% endblock %}
+
+{% block stylesheet %}
+    <link href="{{ asset('bundles/msscore/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/msscore/css/jasny-bootstrap.css') }}" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: #eee;
+      }
+      
+      #profile {
+          //margin-left: 300px;
+      }
+
+    </style>
+{% endblock %}
+
+{% block javascript %}
+<script src="{{ asset('bundles/msscore/js/jasny-bootstrap.min.js') }}"></script>
+<script src="{{asset('bundles/msscore/js/swfobject_modified.js')}}"></script>
+{% endblock %}   
+    
+{% block content %}
+<div class="container">
+<h1> 
+    <a class="btn btn-default" href="{{url('mss_core_user_profile')}}">My Profile</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_friends')}}">My Friends</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_channels', {'username': username})}}">My channels</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_subchannels', {'username': username})}}">Subscribed channels</a>
+</h1>
+<h2>All Foes</h2>
+<big>
+<table style="width:400px" class="table table-striped">
+    {% for foe in foes %}
+	<tr>
+	<td>
+    <a class="" style="width: 120px" href="{{url('mss_core_user_channels', {'username': foe.username})}}">{{foe.username}}</a>
+	</td>
+	<td>
+    <a class="" href="{{url('mss_core_user_unfoe', {'toname': foe.username})}}">Unfoe</a>
+	</td>
+	<td>
+    <a class="" href="{{url('mss_core_user_makefriend', {'toname': foe.username})}}">Make friend</a>
+	</td>
+	</tr>
+    {% endfor %}
+</table>
+</big>
+</div>
+{% endblock %}

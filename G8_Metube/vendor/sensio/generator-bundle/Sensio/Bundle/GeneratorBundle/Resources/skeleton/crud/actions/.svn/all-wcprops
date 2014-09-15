@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/actions
+END
+show.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/actions/show.php.twig
+END
+delete.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/actions/delete.php.twig
+END
+update.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/actions/update.php.twig
+END
+create.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/actions/create.php.twig
+END
+edit.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/actions/edit.php.twig
+END
+index.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/actions/index.php.twig
+END
+new.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/actions/new.php.twig
+END

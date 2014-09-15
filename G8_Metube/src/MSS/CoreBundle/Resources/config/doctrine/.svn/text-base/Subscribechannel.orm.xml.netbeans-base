@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MSS\CoreBundle\Entity\Subscribechannel" table="subscribechannel">
+    <indexes>
+      <index name="publisher" columns="publisher"/>
+      <index name="observer" columns="observer"/>
+    </indexes>
+    <id name="subscribid" type="integer" column="subscribid">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <many-to-one field="observer" target-entity="User">
+      <join-columns>
+        <join-column name="observer" referenced-column-name="username"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="publisher" target-entity="User">
+      <join-columns>
+        <join-column name="publisher" referenced-column-name="username"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

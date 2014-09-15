@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Controller
+END
+UserController.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/yaolinz_MeTube/!svn/ver/349/MediaSharingSystem/src/MSS/CoreBundle/Controller/UserController.php
+END
+RatingController.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Controller/RatingController.php
+END
+CategoryController.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/yaolinz_MeTube/!svn/ver/349/MediaSharingSystem/src/MSS/CoreBundle/Controller/CategoryController.php
+END
+DefaultController.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/yaolinz_MeTube/!svn/ver/349/MediaSharingSystem/src/MSS/CoreBundle/Controller/DefaultController.php
+END
+MedialistController.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Controller/MedialistController.php
+END
+MediaController.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/yaolinz_MeTube/!svn/ver/349/MediaSharingSystem/src/MSS/CoreBundle/Controller/MediaController.php
+END
+CommentsController.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Controller/CommentsController.php
+END
+MailController.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/yaolinz_MeTube/!svn/ver/340/MediaSharingSystem/src/MSS/CoreBundle/Controller/MailController.php
+END
+MessageController.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Controller/MessageController.php
+END
+DiscussionController.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Controller/DiscussionController.php
+END
+SearchController.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Controller/SearchController.php
+END

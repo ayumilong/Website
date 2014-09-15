@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/Discussion
+END
+createGroup.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/Discussion/createGroup.html.twig
+END
+listPost.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/Discussion/listPost.html.twig
+END
+createTopic.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/Discussion/createTopic.html.twig
+END
+listGroup.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/Discussion/listGroup.html.twig
+END
+listTopic.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/yaolinz_MeTube/!svn/ver/344/MediaSharingSystem/src/MSS/CoreBundle/Resources/views/Discussion/listTopic.html.twig
+END

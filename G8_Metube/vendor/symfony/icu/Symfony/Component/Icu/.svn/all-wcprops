@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/icu/Symfony/Component/Icu
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/icu/Symfony/Component/Icu/phpunit.xml.dist
+END
+IcuCurrencyBundle.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/icu/Symfony/Component/Icu/IcuCurrencyBundle.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/icu/Symfony/Component/Icu/README.md
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/icu/Symfony/Component/Icu/composer.json
+END
+IcuData.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/icu/Symfony/Component/Icu/IcuData.php
+END
+IcuLocaleBundle.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/icu/Symfony/Component/Icu/IcuLocaleBundle.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/icu/Symfony/Component/Icu/LICENSE
+END
+IcuLanguageBundle.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/icu/Symfony/Component/Icu/IcuLanguageBundle.php
+END
+IcuRegionBundle.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/icu/Symfony/Component/Icu/IcuRegionBundle.php
+END

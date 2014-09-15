@@ -1,0 +1,80 @@
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+
+{% block stylesheet %}
+<style type="text/css">
+    body {
+        margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+    }
+
+    .thumb {
+        margin-bottom: 30px;
+    }
+
+    footer {
+        margin: 50px 0;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header"><small>SEARCH RESULT</small>
+            </h1>
+        </div>
+    </div>
+    
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Type</th>
+                <th>UploadTime</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in audios %}
+            <tr>
+                <td>
+                    <a href="{{ path('mss_core_cate_specific', {'type': 2, 'mediaid': item.audioid, 'keywords':item.keywords}) }}">
+                    {{ item.title }}</a>
+                </td>
+                <td>Audio</td>
+                <td>{{item.updatetime|date('Y-m-d')}}</td>
+            </tr>
+            {% endfor %}
+            {% for item in images %}
+            <tr>
+                <td>
+                    <a href="{{ path('mss_core_cate_specific', {'type': 1, 'mediaid': item.imageid, 'keywords':item.keywords}) }}">
+                    {{ item.title }}</a>
+                </td>
+                <td>Image</td>
+                <td>{{item.updatetime|date('Y-m-d')}}</td>
+            </tr>
+            {% endfor %}
+            {% for item in texts %}
+            <tr>
+                <td>
+                    <a href="{{ path('mss_core_cate_specific', {'type': 3, 'mediaid': item.textid, 'keywords':item.keywords}) }}">
+                    {{ item.title }}</a>
+                </td>
+                <td>Text</td>
+                <td>{{item.updatetime|date('Y-m-d')}}</td>
+            </tr>
+            {% endfor %}
+            {% for item in videos %}
+            <tr>
+                <td>
+                    <a href="{{ path('mss_core_cate_specific', {'type': 4, 'mediaid': item.vedioid, 'keywords':item.keywords}) }}">
+                    {{ item.title }}</a>
+                </td>
+                <td>Video</td>
+                <td>{{item.updatetime|date('Y-m-d')}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

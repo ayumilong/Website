@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures
+END
+non-valid.yml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/non-valid.yml
+END
+resources.po
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/resources.po
+END
+empty.csv
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/empty.csv
+END
+resources.ini
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/resources.ini
+END
+valid.csv
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/valid.csv
+END
+withdoctype.xlf
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/withdoctype.xlf
+END
+plurals.mo
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/plurals.mo
+END
+empty.yml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/empty.yml
+END
+resources.ts
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/resources.ts
+END
+plurals.po
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/plurals.po
+END
+resources.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/resources.php
+END
+resources.xlf
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/resources.xlf
+END
+resources.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/resources.csv
+END
+empty.json
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/empty.json
+END
+empty-translation.po
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/empty-translation.po
+END
+empty.mo
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/empty.mo
+END
+resources.yml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/resources.yml
+END
+empty.po
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/empty.po
+END
+empty.ini
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/empty.ini
+END
+malformed.json
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/malformed.json
+END
+encoding.xlf
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/encoding.xlf
+END
+non-valid.xlf
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/non-valid.xlf
+END
+resname.xlf
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/resname.xlf
+END
+resources-clean.xlf
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/resources-clean.xlf
+END
+resources.json
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/resources.json
+END
+invalid-xml-resources.xlf
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/invalid-xml-resources.xlf
+END
+resources.mo
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/resources.mo
+END

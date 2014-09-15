@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Provider
+END
+AnonymousAuthenticationProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Provider/AnonymousAuthenticationProvider.php
+END
+PreAuthenticatedAuthenticationProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Provider/PreAuthenticatedAuthenticationProvider.php
+END
+SimpleAuthenticationProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Provider/SimpleAuthenticationProvider.php
+END
+UserAuthenticationProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Provider/UserAuthenticationProvider.php
+END
+AuthenticationProviderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Provider/AuthenticationProviderInterface.php
+END
+RememberMeAuthenticationProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Provider/RememberMeAuthenticationProvider.php
+END
+DaoAuthenticationProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Provider/DaoAuthenticationProvider.php
+END

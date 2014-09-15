@@ -1,0 +1,80 @@
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+{% block title %}Welcom back to MeTube{% endblock %}
+{% block stylesheet %}
+    <link href="{{ asset('bundles/msscore/css/bootstrap.min.css') }}" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: #eee;
+      }
+
+      .form-signin {
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin .checkbox {
+        font-weight: normal;
+      }
+      .form-signin .form-control {
+        position: relative;
+        height: auto;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 10px;
+        font-size: 16px;
+      }
+      .form-signin .form-control:focus {
+        z-index: 2;
+      }
+      .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+      .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }  
+    </style>
+{% endblock %}
+    
+{% block content %}
+     <div class="container">
+
+      <form class="form-signin" role="form" method="POST" action="{{ path("mss_core_user_login") }}" data-validate="parsley">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        
+        {% if uerror is defined %}
+        <div style="color:red">{{uerror}}</div>
+        {% endif %}
+        
+        <input type="email" id="email" name="email" class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+        <label class="checkbox">
+          <input type="checkbox" value="remember_me" name="_remember_me"> Remember me
+        </label>
+        <div align="center">
+        <button class="btn btn-lg btn-primary" type="submit">Sign in</button>
+        <a class="btn btn-lg btn-primary" href="{{path('mss_core_user_signup')}}" >Sign Up</a>
+        </div>
+      </form>
+
+    </div> <!-- /container -->
+
+{% endblock %}
+    
+{% block javascript %}
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+{% endblock %}

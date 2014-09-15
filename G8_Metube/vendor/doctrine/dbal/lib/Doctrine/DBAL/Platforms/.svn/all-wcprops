@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms
+END
+SQLServer2008Platform.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServer2008Platform.php
+END
+SqlitePlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SqlitePlatform.php
+END
+AbstractPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/AbstractPlatform.php
+END
+DrizzlePlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/DrizzlePlatform.php
+END
+PostgreSqlPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/PostgreSqlPlatform.php
+END
+MySqlPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/MySqlPlatform.php
+END
+OraclePlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/OraclePlatform.php
+END
+SQLAzurePlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLAzurePlatform.php
+END
+SQLServerPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServerPlatform.php
+END
+DB2Platform.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/DB2Platform.php
+END
+SQLServer2012Platform.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServer2012Platform.php
+END
+SQLServer2005Platform.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServer2005Platform.php
+END

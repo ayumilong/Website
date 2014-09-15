@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests
+END
+IdentityTranslatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/IdentityTranslatorTest.php
+END
+IntervalTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/IntervalTest.php
+END
+MessageSelectorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/MessageSelectorTest.php
+END
+PluralizationRulesTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/PluralizationRulesTest.php
+END
+MessageCatalogueTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/MessageCatalogueTest.php
+END
+TranslatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/TranslatorTest.php
+END

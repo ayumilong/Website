@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/monolog/monolog/src/Monolog/Formatter
+END
+GelfMessageFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/monolog/monolog/src/Monolog/Formatter/GelfMessageFormatter.php
+END
+NormalizerFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php
+END
+LogstashFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/monolog/monolog/src/Monolog/Formatter/LogstashFormatter.php
+END
+ChromePHPFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php
+END
+ElasticaFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php
+END
+ScalarFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/monolog/monolog/src/Monolog/Formatter/ScalarFormatter.php
+END
+WildfireFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php
+END
+LineFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php
+END
+JsonFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php
+END
+FormatterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php
+END

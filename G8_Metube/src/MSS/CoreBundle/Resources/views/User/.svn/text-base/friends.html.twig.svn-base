@@ -1,0 +1,82 @@
+{% extends 'MSSCoreBundle:Home:base.html.twig' %}
+
+{% block title %}Friends{% endblock %}
+
+{% block stylesheet %}
+    <link href="{{ asset('bundles/msscore/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/msscore/css/jasny-bootstrap.css') }}" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: #eee;
+      }
+      
+      #profile {
+          //margin-left: 300px;
+      }
+
+    </style>
+{% endblock %}
+
+{% block javascript %}
+<script src="{{ asset('bundles/msscore/js/jasny-bootstrap.min.js') }}"></script>
+<script src="{{asset('bundles/msscore/js/swfobject_modified.js')}}"></script>
+{% endblock %}   
+    
+{% block content %}
+<h1 style="margin-left:100px">
+    <a class="btn btn-default" href="{{url('mss_core_user_profile')}}">My Profile</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_foes')}}">My Foes</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_channels', {'username': username})}}">My channels</a>
+    <a class="btn btn-default" href="{{url('mss_core_user_subchannels', {'username': username})}}">Subscribed channels</a>
+</h1>
+<h1>All Friends </h1>
+    {% for friend in friends %}
+
+<h1>
+    <a class="btn btn-default" style="width: 120px" href="">{{friend.username}}</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_channels', {'username': friend.username})}}">Own Channel</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_subchannels', {'username': friend.username})}}">Subscribed Channel</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_block', {'toname': friend.username})}}">Block</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_unfriend', {'toname': friend.username})}}">Unfriend</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_makefoe', {'toname': friend.username})}}">Make Foe</a>
+<br>
+</h1>
+    {% endfor %}
+
+<h2>Blocked Users</h2>
+    {% for block in blocks %}
+<h1>
+    <a class="btn btn-default" style="width: 120px" href="">{{block.username}}</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_unblock', {'toname': block.username})}}">Unblock</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_block', {'toname': block.username})}}">Change BLock</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_makefoe', {'toname': block.username})}}">Make foe</a>
+    <br>
+</h1>
+    {% endfor %}
+
+<h2>Friends Request</h2>
+    {% for request in requests %}
+<h1>
+    <a class="btn btn-default" style="width: 120px" href="">{{request.username}}</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_confirmfriend', {'toname': request.username})}}">Confirm</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_refusefriend', {'toname': request.username})}}">Refuse</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_makefoe', {'toname': request.username})}}">Make Foe</a>
+<br>
+</h1>
+    {% endfor %}
+
+<h2>Need Confirm</h2>
+    {% for confirm in confirms %}
+<h1>
+    <a class="btn btn-default" style="width: 120px" href="">{{confirm.username}}</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_canclefriend', {'toname': confirm.username})}}">Cancle</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_block', {'toname': confirm.username})}}">Block</a>
+    <a class="btn btn-primary" href="{{url('mss_core_user_makefoe', {'toname': confirm.username})}}">Make foe</a>
+    <br>
+</h1>
+    {% endfor %}
+
+
+{% endblock %}

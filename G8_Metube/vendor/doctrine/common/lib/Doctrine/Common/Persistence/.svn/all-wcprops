@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Persistence
+END
+ObjectManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ObjectManager.php
+END
+ObjectManagerAware.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ObjectManagerAware.php
+END
+Proxy.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Proxy.php
+END
+ManagerRegistry.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ManagerRegistry.php
+END
+ObjectManagerDecorator.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ObjectManagerDecorator.php
+END
+ObjectRepository.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ObjectRepository.php
+END
+AbstractManagerRegistry.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php
+END
+PersistentObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Persistence/PersistentObject.php
+END
+ConnectionRegistry.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ConnectionRegistry.php
+END

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MSS\CoreBundle\Entity\Post" table="post">
+    <indexes>
+      <index name="poster" columns="poster"/>
+    </indexes>
+    <indexes>
+      <index name="topicid" columns="topicid"/>
+    </indexes>
+    <indexes>
+      <index name="parent" columns="parent"/>
+    </indexes>
+    <id name="postid" type="integer" column="postid">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="replyto" type="string" column="replyto" length="20" nullable="true"/>
+    <field name="content" type="string" column="content" length="200" nullable="false"/>
+    <field name="createtime" type="date" column="createtime" nullable="false"/>
+    <many-to-one field="poster" target-entity="User">
+      <join-columns>
+        <join-column name="poster" referenced-column-name="username"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="topicid" target-entity="Topic">
+      <join-columns>
+        <join-column name="topicid" referenced-column-name="topicid"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="parent" target-entity="Post">
+      <join-columns>
+        <join-column name="parent" referenced-column-name="postid"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

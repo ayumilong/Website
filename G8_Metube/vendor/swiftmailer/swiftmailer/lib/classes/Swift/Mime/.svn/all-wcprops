@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime
+END
+CharsetObserver.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/CharsetObserver.php
+END
+HeaderSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php
+END
+ParameterizedHeader.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ParameterizedHeader.php
+END
+ContentEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder.php
+END
+MimePart.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimePart.php
+END
+SimpleHeaderSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php
+END
+HeaderFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderFactory.php
+END
+MimeEntity.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimeEntity.php
+END
+Message.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Message.php
+END
+Grammar.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Grammar.php
+END
+HeaderEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php
+END
+Header.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Header.php
+END
+Attachment.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Attachment.php
+END
+EmbeddedFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EmbeddedFile.php
+END
+SimpleHeaderFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php
+END
+EncodingObserver.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EncodingObserver.php
+END
+SimpleMessage.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php
+END
+SimpleMimeEntity.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Provider
+END
+UserAuthenticationProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Provider/UserAuthenticationProviderTest.php
+END
+RememberMeAuthenticationProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Provider/RememberMeAuthenticationProviderTest.php
+END
+DaoAuthenticationProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Provider/DaoAuthenticationProviderTest.php
+END
+AnonymousAuthenticationProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Provider/AnonymousAuthenticationProviderTest.php
+END
+PreAuthenticatedAuthenticationProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Provider/PreAuthenticatedAuthenticationProviderTest.php
+END

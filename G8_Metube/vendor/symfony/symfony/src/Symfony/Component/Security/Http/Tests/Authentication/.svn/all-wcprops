@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/Authentication
+END
+SimpleAuthenticationHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/Authentication/SimpleAuthenticationHandlerTest.php
+END
+DefaultAuthenticationFailureHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/Authentication/DefaultAuthenticationFailureHandlerTest.php
+END
+DefaultAuthenticationSuccessHandlerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/Authentication/DefaultAuthenticationSuccessHandlerTest.php
+END

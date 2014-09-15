@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="MSS\CoreBundle\Entity\Subscribechannel" table="subscribechannel">
+    <id name="subscribid" type="integer" column="subscribid">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="observer" type="string" column="observer" length="20" nullable="false"/>
+    <field name="publisher" type="string" column="publisher" length="20" nullable="false"/>
+    <field name="channeltype" type="string" column="channeltype" length="20" nullable="false"/>
+  </entity>
+</doctrine-mapping>

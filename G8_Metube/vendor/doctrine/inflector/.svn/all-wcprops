@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/inflector
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/inflector/README.md
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/inflector/composer.json
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/doctrine/inflector/phpunit.xml.dist
+END

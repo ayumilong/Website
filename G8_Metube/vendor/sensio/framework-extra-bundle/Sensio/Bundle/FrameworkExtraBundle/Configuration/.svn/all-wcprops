@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Configuration
+END
+Method.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Configuration/Method.php
+END
+ConfigurationAnnotation.php
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Configuration/ConfigurationAnnotation.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Configuration/Cache.php
+END
+Security.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Configuration/Security.php
+END
+ConfigurationInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Configuration/ConfigurationInterface.php
+END
+ParamConverter.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Configuration/ParamConverter.php
+END
+Template.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Configuration/Template.php
+END
+Route.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Configuration/Route.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/EntryPoint
+END
+DigestAuthenticationEntryPointTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/EntryPoint/DigestAuthenticationEntryPointTest.php
+END
+BasicAuthenticationEntryPointTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/EntryPoint/BasicAuthenticationEntryPointTest.php
+END
+FormAuthenticationEntryPointTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/EntryPoint/FormAuthenticationEntryPointTest.php
+END
+RetryAuthenticationEntryPointTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repos/yaolinz_MeTube/!svn/ver/320/MediaSharingSystem/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Tests/EntryPoint/RetryAuthenticationEntryPointTest.php
+END

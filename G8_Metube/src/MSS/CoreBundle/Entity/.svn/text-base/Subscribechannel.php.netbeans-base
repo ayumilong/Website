@@ -1,0 +1,101 @@
+<?php
+
+namespace MSS\CoreBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Subscribechannel
+ *
+ * @ORM\Table(name="subscribechannel", indexes={@ORM\Index(name="publisher", columns={"publisher"}), @ORM\Index(name="observer", columns={"observer"})})
+ * @ORM\Entity
+ */
+class Subscribechannel
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="subscribid", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $subscribid;
+
+    /**
+     * @var \MSS\CoreBundle\Entity\User
+     *
+     * @ORM\ManyToOne(targetEntity="MSS\CoreBundle\Entity\User")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="observer", referencedColumnName="username")
+     * })
+     */
+    private $observer;
+
+    /**
+     * @var \MSS\CoreBundle\Entity\User
+     *
+     * @ORM\ManyToOne(targetEntity="MSS\CoreBundle\Entity\User")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="publisher", referencedColumnName="username")
+     * })
+     */
+    private $publisher;
+
+
+
+    /**
+     * Get subscribid
+     *
+     * @return integer 
+     */
+    public function getSubscribid()
+    {
+        return $this->subscribid;
+    }
+
+    /**
+     * Set observer
+     *
+     * @param \MSS\CoreBundle\Entity\User $observer
+     * @return Subscribechannel
+     */
+    public function setObserver(\MSS\CoreBundle\Entity\User $observer = null)
+    {
+        $this->observer = $observer;
+
+        return $this;
+    }
+
+    /**
+     * Get observer
+     *
+     * @return \MSS\CoreBundle\Entity\User 
+     */
+    public function getObserver()
+    {
+        return $this->observer;
+    }
+
+    /**
+     * Set publisher
+     *
+     * @param \MSS\CoreBundle\Entity\User $publisher
+     * @return Subscribechannel
+     */
+    public function setPublisher(\MSS\CoreBundle\Entity\User $publisher = null)
+    {
+        $this->publisher = $publisher;
+
+        return $this;
+    }
+
+    /**
+     * Get publisher
+     *
+     * @return \MSS\CoreBundle\Entity\User 
+     */
+    public function getPublisher()
+    {
+        return $this->publisher;
+    }
+}
